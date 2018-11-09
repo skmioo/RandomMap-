@@ -196,7 +196,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4314961244471152}
-  - component: {fileID: 114437143694274238}
   - component: {fileID: 65851354586963532}
   m_Layer: 0
   m_Name: island6
@@ -1048,25 +1047,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!1 &1528449381665136
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4467580548194938}
-  - component: {fileID: 20803991563764918}
-  - component: {fileID: 92897220987144448}
-  - component: {fileID: 124877381362803848}
-  - component: {fileID: 81219136678340528}
-  m_Layer: 0
-  m_Name: Main Camera (1)
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1548206033467118
 GameObject:
   m_ObjectHideFlags: 1
@@ -1873,7 +1853,7 @@ Transform:
   - {fileID: 4651943186928902}
   - {fileID: 4043747912970298}
   m_Father: {fileID: 4859573127285348}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4025364814697946
 Transform:
@@ -2080,7 +2060,7 @@ Transform:
   - {fileID: 4791464994836594}
   - {fileID: 4173210662321782}
   m_Father: {fileID: 4859573127285348}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4167660093523918
 Transform:
@@ -2158,7 +2138,7 @@ Transform:
   m_LocalScale: {x: 1.2346014, y: 1.8492107, z: 1}
   m_Children: []
   m_Father: {fileID: 4859573127285348}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4228061258393498
 Transform:
@@ -2171,7 +2151,7 @@ Transform:
   m_LocalScale: {x: 0.5743612, y: 0.5743607, z: 0.23444024}
   m_Children: []
   m_Father: {fileID: 4859573127285348}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4237272313025414
 Transform:
@@ -2270,8 +2250,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1091826339886110}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30, y: -0.0000022530917, z: 40}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4859573127285348}
@@ -2416,19 +2396,6 @@ Transform:
   m_Father: {fileID: 4859573127285348}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4467580548194938
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1528449381665136}
-  m_LocalRotation: {x: 0.096784405, y: -0, z: -0, w: 0.9953054}
-  m_LocalPosition: {x: 22.736458, y: 135.66045, z: -74.91095}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4859573127285348}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4492935393261668
 Transform:
   m_ObjectHideFlags: 1
@@ -2536,7 +2503,7 @@ Transform:
   m_LocalScale: {x: 0.89634097, y: 1.3425603, z: 0.72602}
   m_Children: []
   m_Father: {fileID: 4859573127285348}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4558429441609358
 Transform:
@@ -3124,7 +3091,6 @@ Transform:
   - {fileID: 4297732774032552}
   - {fileID: 4436489399733530}
   - {fileID: 4300198481791184}
-  - {fileID: 4467580548194938}
   - {fileID: 4008889157220364}
   - {fileID: 4147910255259546}
   - {fileID: 4555673888279682}
@@ -3197,7 +3163,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4859573127285348}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4910779883122228
 Transform:
@@ -3342,42 +3308,6 @@ Transform:
   m_Father: {fileID: 4957882332028806}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &20803991563764918
-Camera:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1528449381665136}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!23 &23017510331970410
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -8010,39 +7940,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 125, y: 1, z: 120}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!81 &81219136678340528
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1528449381665136}
-  m_Enabled: 1
---- !u!92 &92897220987144448
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1528449381665136}
-  m_Enabled: 1
---- !u!114 &114437143694274238
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1091826339886110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2383e2b90f6e09047bd94e0d62aededd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MapItemRealRow: 0
-  MapItemRealColumn: 0
-  xlength: 0
-  zlength: 0
---- !u!124 &124877381362803848
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1528449381665136}
-  m_Enabled: 1

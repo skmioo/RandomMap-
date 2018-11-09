@@ -565,7 +565,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4844617725064272}
-  - component: {fileID: 114374135606603120}
   - component: {fileID: 65960334722349338}
   m_Layer: 0
   m_Name: island7
@@ -3164,8 +3163,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1253833904065054}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35, y: -0.0000030825488, z: 30}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5, y: -0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4443007847818528}
@@ -8202,18 +8201,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 120, y: 1, z: 130}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114374135606603120
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1253833904065054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2383e2b90f6e09047bd94e0d62aededd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MapItemRealRow: 0
-  MapItemRealColumn: 0
-  xlength: 0
-  zlength: 0

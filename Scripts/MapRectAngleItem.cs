@@ -1,18 +1,19 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-public abstract class MapRectAngleItem : MapItem
+public class MapRectAngleItem : MapItem
 {
-    public override MapItemType ItemType
-    {
-        get
-        {
-            return MapItemType.RectAngle;
-        }
-    }
 
     //实际所占大小(包括距离)
     public RectAngle RealNeedPlace = new RectAngle();
+
+    public override string Name
+    {
+        get
+        {
+           return gameObject.name;
+        }
+    }
 
     public override void SetItemLengthXY()
     {

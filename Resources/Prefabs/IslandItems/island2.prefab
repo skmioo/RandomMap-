@@ -559,7 +559,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4056529959579540}
-  - component: {fileID: 114609406551414066}
   - component: {fileID: 65268944498837748}
   m_Layer: 0
   m_Name: island2
@@ -1797,8 +1796,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390858301047538}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40, y: 0, z: 40}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 127.1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4517891663042142}
@@ -2184,8 +2183,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915802331337160}
   m_LocalRotation: {x: -0.60352796, y: 0.36844808, z: 0.36844814, w: 0.60352796}
-  m_LocalPosition: {x: -4.7184696, y: 116.48829, z: -20.053196}
-  m_LocalScale: {x: 1.0384998, y: 1.11226, z: 1}
+  m_LocalPosition: {x: -4.7885, y: 116.49, z: -19.917}
+  m_LocalScale: {x: 1.3809729, y: 1.11226, z: 1}
   m_Children: []
   m_Father: {fileID: 4517891663042142}
   m_RootOrder: 23
@@ -2494,8 +2493,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1104989381933874}
   m_LocalRotation: {x: -0.60352796, y: 0.36844808, z: 0.36844814, w: 0.60352796}
-  m_LocalPosition: {x: -2.0184727, y: 115.88829, z: -18.853195}
-  m_LocalScale: {x: 1.1306399, y: 1.13064, z: 1.13064}
+  m_LocalPosition: {x: -4.1218, y: 115.89, z: -20.104}
+  m_LocalScale: {x: 1.7734768, y: 1.7104089, z: 1.13064}
   m_Children: []
   m_Father: {fileID: 4517891663042142}
   m_RootOrder: 12
@@ -8055,20 +8054,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 120, y: 1, z: 120}
+  m_Size: {x: 140, y: 1, z: 140}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114609406551414066
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1390858301047538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2383e2b90f6e09047bd94e0d62aededd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MapItemRealRow: 0
-  MapItemRealColumn: 0
-  xlength: 0
-  zlength: 0

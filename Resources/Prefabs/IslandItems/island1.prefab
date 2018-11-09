@@ -1921,7 +1921,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4884524877902162}
-  - component: {fileID: 114549586265093824}
   - component: {fileID: 65471460782438744}
   m_Layer: 0
   m_Name: island1
@@ -2674,7 +2673,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1111429415392418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30, y: -34, z: -42}
+  m_LocalPosition: {x: -23, y: -34, z: -48.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4975305809955616}
@@ -3410,8 +3409,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1961416383923142}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30, y: 0.00000011920929, z: 40}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4471271517153890}
@@ -8666,18 +8665,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 140, y: 1, z: 130}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114549586265093824
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1961416383923142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2383e2b90f6e09047bd94e0d62aededd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MapItemRealRow: 0
-  MapItemRealColumn: 0
-  xlength: 0
-  zlength: 0
